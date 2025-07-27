@@ -18,7 +18,7 @@
 // | CTRL |  A  |  S  |  D   |  F  |  G   |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | SHFT |  Z  |  X  |  C   |  V  |  B   |   |  N  |  M   |  ,  |  .  |  /  | ENT  |
 //                    | LALT | LWR | LGUI |   | SPC | RSE  | ALT |
-                        display-name = "Base";
+                        display-name = "Alpha";
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E    &kp R &kp T      &kp Y     &kp U &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D    &kp F &kp G      &kp H     &kp J &kp K     &kp L   &kp SEMI &kp SQT
@@ -30,13 +30,13 @@
 // -----------------------------------------------------------------------------------------
 // | ~    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | MINUS |
 // | ESC  |     |     |     |     |     |   |     |     |  UP |  [  |  ]  |   =   |
-// |BT_CLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |     | LEFT|DOWN |RIGHT|     |       |
+// |BT_CLR| BT0 | BT1 | BT2 | BT3 | BT4 |   |     | LEFT|DOWN |RIGHT|     |       |
 //                    |     |     |     |   |     |     |     |
-                        display-name = "NumArrows";
+                        display-name = "Num+Nav";
                         bindings = <
    &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6 &kp N7   &kp N8   &kp N9   &kp N0   &kp MINUS
    &kp ESC    &trans       &trans       &trans       &trans       &trans         &trans &trans   &kp UP   &kp LBKT &kp RBKT &kp EQUAL
-   &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5   &kp LEFT &kp DOWN &kp RIGHT &trans   &trans
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp RIGHT &trans   &trans
                            &trans &trans &trans   &trans &trans &trans
                         >;
                 };
